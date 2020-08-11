@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F24AE49D24E27F2F002A93CB /* kunkun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F24AE49C24E27F2E002A93CB /* kunkun.jpg */; };
 		F28AFB4224E2392100866789 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F28AFB4124E2392100866789 /* AppDelegate.m */; };
 		F28AFB4524E2392100866789 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F28AFB4424E2392100866789 /* SceneDelegate.m */; };
 		F28AFB4824E2392100866789 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28AFB4724E2392100866789 /* ViewController.m */; };
@@ -14,9 +15,14 @@
 		F28AFB4D24E2392300866789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28AFB4C24E2392300866789 /* Assets.xcassets */; };
 		F28AFB5024E2392300866789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28AFB4E24E2392300866789 /* LaunchScreen.storyboard */; };
 		F28AFB5324E2392300866789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F28AFB5224E2392300866789 /* main.m */; };
+		F28AFB5D24E23CE700866789 /* Normal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F28AFB5C24E23CE700866789 /* Normal.fsh */; };
+		F28AFB5F24E23CFA00866789 /* Normal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F28AFB5E24E23CFA00866789 /* Normal.vsh */; };
+		F28AFB6524E23D1B00866789 /* FilterBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F28AFB6124E23D1B00866789 /* FilterBarCell.m */; };
+		F28AFB6624E23D1B00866789 /* FilterBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F28AFB6224E23D1B00866789 /* FilterBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F24AE49C24E27F2E002A93CB /* kunkun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kunkun.jpg; sourceTree = "<group>"; };
 		F28AFB3D24E2392100866789 /* OpenGL_ES_Filter_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGL_ES_Filter_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28AFB4024E2392100866789 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F28AFB4124E2392100866789 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +35,12 @@
 		F28AFB4F24E2392300866789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F28AFB5124E2392300866789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F28AFB5224E2392300866789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F28AFB5C24E23CE700866789 /* Normal.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Normal.fsh; sourceTree = "<group>"; };
+		F28AFB5E24E23CFA00866789 /* Normal.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Normal.vsh; sourceTree = "<group>"; };
+		F28AFB6124E23D1B00866789 /* FilterBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterBarCell.m; sourceTree = "<group>"; };
+		F28AFB6224E23D1B00866789 /* FilterBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterBar.m; sourceTree = "<group>"; };
+		F28AFB6324E23D1B00866789 /* FilterBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterBarCell.h; sourceTree = "<group>"; };
+		F28AFB6424E23D1B00866789 /* FilterBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterBar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +73,15 @@
 		F28AFB3F24E2392100866789 /* OpenGL_ES_Filter_01 */ = {
 			isa = PBXGroup;
 			children = (
+				F24AE49C24E27F2E002A93CB /* kunkun.jpg */,
 				F28AFB4024E2392100866789 /* AppDelegate.h */,
 				F28AFB4124E2392100866789 /* AppDelegate.m */,
 				F28AFB4324E2392100866789 /* SceneDelegate.h */,
 				F28AFB4424E2392100866789 /* SceneDelegate.m */,
 				F28AFB4624E2392100866789 /* ViewController.h */,
 				F28AFB4724E2392100866789 /* ViewController.m */,
+				F28AFB6024E23D1B00866789 /* Tool */,
+				F28AFB5A24E23CB400866789 /* Filter */,
 				F28AFB4924E2392100866789 /* Main.storyboard */,
 				F28AFB4C24E2392300866789 /* Assets.xcassets */,
 				F28AFB4E24E2392300866789 /* LaunchScreen.storyboard */,
@@ -74,6 +89,34 @@
 				F28AFB5224E2392300866789 /* main.m */,
 			);
 			path = OpenGL_ES_Filter_01;
+			sourceTree = "<group>";
+		};
+		F28AFB5A24E23CB400866789 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				F28AFB5B24E23CBD00866789 /* normal */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		F28AFB5B24E23CBD00866789 /* normal */ = {
+			isa = PBXGroup;
+			children = (
+				F28AFB5C24E23CE700866789 /* Normal.fsh */,
+				F28AFB5E24E23CFA00866789 /* Normal.vsh */,
+			);
+			path = normal;
+			sourceTree = "<group>";
+		};
+		F28AFB6024E23D1B00866789 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F28AFB6124E23D1B00866789 /* FilterBarCell.m */,
+				F28AFB6224E23D1B00866789 /* FilterBar.m */,
+				F28AFB6324E23D1B00866789 /* FilterBarCell.h */,
+				F28AFB6424E23D1B00866789 /* FilterBar.h */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +176,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28AFB5F24E23CFA00866789 /* Normal.vsh in Resources */,
+				F24AE49D24E27F2F002A93CB /* kunkun.jpg in Resources */,
 				F28AFB5024E2392300866789 /* LaunchScreen.storyboard in Resources */,
 				F28AFB4D24E2392300866789 /* Assets.xcassets in Resources */,
+				F28AFB5D24E23CE700866789 /* Normal.fsh in Resources */,
 				F28AFB4B24E2392100866789 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +195,8 @@
 				F28AFB4824E2392100866789 /* ViewController.m in Sources */,
 				F28AFB4224E2392100866789 /* AppDelegate.m in Sources */,
 				F28AFB5324E2392300866789 /* main.m in Sources */,
+				F28AFB6624E23D1B00866789 /* FilterBar.m in Sources */,
+				F28AFB6524E23D1B00866789 /* FilterBarCell.m in Sources */,
 				F28AFB4524E2392100866789 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OpenGL_ES_Filter_01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OpenGL_ES_Filter_01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
