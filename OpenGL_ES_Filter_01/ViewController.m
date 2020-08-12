@@ -88,7 +88,7 @@ typedef struct {
     filerBar.delegate = self;
     [self.view addSubview:filerBar];
     
-    NSArray *dataSource = @[@"无"];
+    NSArray *dataSource = @[@"无", @"分屏_2", @"分屏_3", @"分屏_4", @"分屏_6", @"分屏_9"];
     filerBar.itemList = dataSource;
 }
 
@@ -333,9 +333,25 @@ typedef struct {
     if (index == 0) {
         [self setupNormalShaderProgram];
     }
+    else if (index == 1) {
+        [self setupShaderProgramWithName:@"SplitScreen_2"];
+    }
+    else if (index == 2) {
+        [self setupShaderProgramWithName:@"SplitScreen_3"];
+    }
+    else if (index == 3) {
+        [self setupShaderProgramWithName:@"SplitScreen_4"];
+    }
+    else if (index == 4) {
+        [self setupShaderProgramWithName:@"SplitScreen_6"];
+    }
+    else if (index == 5) {
+        [self setupShaderProgramWithName:@"SplitScreen_9"];
+    }
+    
    
     // 重新开始滤镜动画
-    // [self startFilerAnimation];
+     [self startFilerAnimation];
     
     //渲染
     [self render];
