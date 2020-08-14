@@ -120,7 +120,7 @@ typedef struct {
     [self bindRenderLayer:layer];
     
     //6.获取处理的图片路径
-    NSString *imgPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"kunkun.jpg"];
+    NSString *imgPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"xiaochen.png"];
     //读取图片
     UIImage *img = [UIImage imageWithContentsOfFile:imgPath];
     //将jpg图片转化为纹理图片
